@@ -324,11 +324,11 @@
          screen dim duration is defined as a ratio of the overall screen off timeout
          instead of as an absolute value in milliseconds.  This is useful for reducing
          the dim duration when the screen off timeout is very short.
-    
+
          When computing the screen dim duration, the power manager uses the lesser
          of the effective durations expressed by config_maximumScreenDimDuration and
          config_maximumScreenDimRatio.
-    
+
          This value must be between 0% and 100%.  If the value is zero, the screen will not
          dim before the device goes to sleep.
     -->
@@ -435,6 +435,10 @@
 
     <!-- Whether the device supports Smart Pixels -->
     <bool name="config_enableSmartPixels">true</bool>
+
+    <!-- Flag specifying whether pocked mode is available on device -->
+    <bool name="config_pocketModeSupported">true</bool>
+    <bool name="config_pocketUseLightSensor">false</bool>
 
     <!-- SystemInfo Sys Nodes -->
     <integer name="config_sysCPUTempMultiplier">1000</integer>
