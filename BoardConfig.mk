@@ -20,10 +20,6 @@ SOONG_CONFIG_XIAOMI_KONA_FOD_POS_X = 439
 SOONG_CONFIG_XIAOMI_KONA_FOD_POS_Y = 1655
 SOONG_CONFIG_XIAOMI_KONA_FOD_SIZE = 202
 
-# Kernel
-include device/xiaomi/lmi-kernel/BoardConfigKernel.mk
-TARGET_KERNEL_CONFIG := vendor/kona-perf_defconfig
-
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
