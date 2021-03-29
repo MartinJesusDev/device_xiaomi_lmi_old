@@ -328,6 +328,12 @@ media/audio/ui/popup_muqin_down.ogg
 media/audio/ui/popup_muqin_up.ogg
 media/audio/ui/popup_yingyan_down.ogg
 media/audio/ui/popup_yingyan_up.ogg
+media/audio/ui/popup_imperial_march_down.ogg
+media/audio/ui/popup_imperial_march_up.ogg
+media/audio/ui/popup_lightsaber_down.ogg
+media/audio/ui/popup_lightsaber_up.ogg
+media/audio/ui/popup_throne_room_down.ogg
+media/audio/ui/popup_throne_room_up.ogg
 vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
 vendor/etc/init/init.lmi.rc
 vendor/etc/step_motor/mi_camera_config.xml
