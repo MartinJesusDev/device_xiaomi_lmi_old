@@ -334,6 +334,8 @@ media/audio/ui/popup_lightsaber_down.ogg
 media/audio/ui/popup_lightsaber_up.ogg
 media/audio/ui/popup_throne_room_down.ogg
 media/audio/ui/popup_throne_room_up.ogg
+media/audio/ui/popup_super_mario_down.ogg
+media/audio/ui/popup_super_mario_up.ogg
 vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
 vendor/etc/init/init.lmi.rc
 vendor/etc/step_motor/mi_camera_config.xml
