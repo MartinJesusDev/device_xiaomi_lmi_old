@@ -5,7 +5,7 @@
 #
 
 # Inherit from xiaomi sm8250-common
--include device/xiaomi/sm8250-common/BoardConfigCommon.mk
+include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 DEVICE_PATH := device/xiaomi/lmi
 
@@ -24,4 +24,4 @@ SOONG_CONFIG_XIAOMI_KONA_FOD_SIZE = 202
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
 
 # inherit from the proprietary version
--include vendor/xiaomi/lmi/BoardConfigVendor.mk
+include vendor/xiaomi/lmi/BoardConfigVendor.mk
