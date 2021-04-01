@@ -37,6 +37,14 @@
         <item>popup_throne_room_down.ogg</item>
         <item>popup_super_mario_up.ogg</item>
         <item>popup_super_mario_down.ogg</item>
+        <item>popup_bruh.ogg</item>
+        <item>popup_tacobell.ogg</item>
+        <item>popup_bababooey.ogg</item>
+        <item>popup_skibidibopmmdada.ogg</item>
+        <item>popup_dababy.ogg</item>
+        <item>popup_snapbacktoreality.ogg</item>
+        <item>popup_unknownlanguage.ogg</item>
+        <item>popup_xuehuapiaopiao.ogg</item>
     </string-array>
 
     <string-array name="popupcamera_effects_entries">
@@ -51,6 +59,10 @@
         <item>@string/popup_sound_lightsaber</item>
         <item>@string/popup_sound_throne_room</item>
         <item>@string/popup_super_mario</item>
+        <item>@string/popup_title_cringe</item>
+        <item>@string/popup_title_cringe2</item>
+        <item>@string/popup_title_cringe3</item>
+        <item>@string/popup_title_unknownlanguage</item>
     </string-array>
 
     <string-array name="popupcamera_effects_values">
@@ -65,5 +77,9 @@
         <item>14</item>
         <item>16</item>
         <item>18</item>
+        <item>20</item>
+        <item>22</item>
+        <item>24</item>
+        <item>26</item>
     </string-array>
 </resources>

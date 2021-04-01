@@ -336,6 +336,14 @@ media/audio/ui/popup_throne_room_down.ogg
 media/audio/ui/popup_throne_room_up.ogg
 media/audio/ui/popup_super_mario_down.ogg
 media/audio/ui/popup_super_mario_up.ogg
+media/audio/ui/popup_bruh.ogg
+media/audio/ui/popup_tacobell.ogg
+media/audio/ui/popup_bababooey.ogg
+media/audio/ui/popup_skibidibopmmdada.ogg
+media/audio/ui/popup_dababy.ogg
+media/audio/ui/popup_snapbacktoreality.ogg
+media/audio/ui/popup_unknownlanguage.ogg
+media/audio/ui/popup_xuehuapiaopiao.ogg
 vendor/bin/hw/vendor.xiaomi.hardware.motor@1.0-service
 vendor/etc/init/init.lmi.rc
 vendor/etc/step_motor/mi_camera_config.xml
