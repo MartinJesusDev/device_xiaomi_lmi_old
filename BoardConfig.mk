@@ -17,9 +17,6 @@ SOONG_CONFIG_XIAOMI_KONA_FOD_POS_X = 439
 SOONG_CONFIG_XIAOMI_KONA_FOD_POS_Y = 1655
 SOONG_CONFIG_XIAOMI_KONA_FOD_SIZE = 202
 
-# Properties
-TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
-
 # Inherit from xiaomi sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
