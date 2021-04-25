@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from xiaomi sm8250-common
-$(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
@@ -32,6 +29,9 @@ PRODUCT_SOONG_NAMESPACES += \
 # Display calibration data
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/display/qdcm_calib_data_xiaomi_j11_38_08_0a_fhd_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc/qdcm_calib_data_xiaomi_j11_38_08_0a_fhd_panel.xml
+
+# Inherit from xiaomi sm8250-common
+$(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/xiaomi/lmi/lmi-vendor.mk)

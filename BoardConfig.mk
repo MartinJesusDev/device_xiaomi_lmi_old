@@ -4,9 +4,6 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-# Inherit from xiaomi sm8250-common
-include device/xiaomi/sm8250-common/BoardConfigCommon.mk
-
 DEVICE_PATH := device/xiaomi/lmi
 
 # Bluetooth
@@ -22,6 +19,9 @@ SOONG_CONFIG_XIAOMI_KONA_FOD_SIZE = 202
 
 # Properties
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/product.prop
+
+# Inherit from xiaomi sm8250-common
+include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
 # inherit from the proprietary version
 include vendor/xiaomi/lmi/BoardConfigVendor.mk
