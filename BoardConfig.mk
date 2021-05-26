@@ -17,6 +17,9 @@ SOONG_CONFIG_XIAOMI_KONA_FOD_POS_X = 439
 SOONG_CONFIG_XIAOMI_KONA_FOD_POS_Y = 1655
 SOONG_CONFIG_XIAOMI_KONA_FOD_SIZE = 202
 
+# Kernel
+TARGET_KERNEL_CONFIG := vendor/lmi_defconfig
+
 # Inherit from xiaomi sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
